@@ -177,6 +177,9 @@ vendor.qcom.bluetooth.soc=hastings
 # Cached app compaction
 persist.device_config.activity_manager.use_compaction=true
 
+# Camera
+persist.vendor.camera.logInfoMask=false
+
 # Chipset
 ro.soc.manufacturer=QTI
 ro.soc.model=SM8250
