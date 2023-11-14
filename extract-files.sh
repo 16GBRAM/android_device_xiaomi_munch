@@ -65,7 +65,7 @@ function blob_fixup() {
             "${SIGSCAN}" -p "9A 0A 00 94" -P "1F 20 03 D5" -f "${2}"
             ;;
         vendor/lib64/camera/components/com.mi.node.watermark.so)
-            "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
+            grep -q "libpiex_shim.so" "${2}" || "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
         vendor/etc/media_codecs_kona.xml)
             sed -i "/media_codecs_dolby_audio.xml/d" "${2}"
