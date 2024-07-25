@@ -17,9 +17,9 @@ $(call inherit-product, device/xiaomi/munch/device.mk)
 PRODUCT_NAME := lineage_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := 22021211RC
+PRODUCT_BRAND := Poco
+PRODUCT_MODEL := 22021211RG
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := Redmi/munch/munch:13/RKQ1.211001.001/V816.0.2.0.ULMMIXM:user/release-keys
+BUILD_FINGERPRINT := POCO/munch_global/munch:13/RKQ1.211001.001/V816.0.8.0.ULMMIXM:user/release-keys
