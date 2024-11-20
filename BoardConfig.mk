@@ -25,6 +25,10 @@ AB_OTA_PARTITIONS += \
     vendor \
     vendor_boot
 
+# ART
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_DEBUG := false
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
