@@ -4,19 +4,6 @@ The POCO F4/Redmi K40S (codenamed "munch") is a flagship smartphone from Xiaomi 
 
 It is also known as POCO F4 (globally) and Redmi K40S (China).
 
-## Dependency
-### Device tree
-```
-git clone https://github.com/hdzungx/device_xiaomi_munch device/xiaomi/munch
-```
-### Vendor tree
-```
-git clone https://gitea.com/hdzungx/android_vendor_xiaomi_munch vendor/xiaomi/munch
-```
-### MiuiCamera
-```
-git clone https://gitea.com/hdzungx/android_vendor_xiaomi_miuicamera vendor/xiaomi/miuicamera
-```
 ## Device specifications
 
 | Feature                 | Specification                                                              |
