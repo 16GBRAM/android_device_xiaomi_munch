@@ -525,6 +525,13 @@ on property:vendor.post_boot.parsed=1
     chown system system /sys/class/power_supply/battery/temp
     chmod 0660 /sys/class/power_supply/battery/temp
 
+    chown system system /sys/class/power_supply/battery/charge_full
+    chmod 0660 /sys/class/power_supply/battery/charge_full
+    chown system system /sys/class/power_supply/battery/charge_full_design
+    chmod 0660 /sys/class/power_supply/battery/charge_full_design
+    chown system system /sys/class/power_supply/battery/cycle_count
+    chmod 0660 /sys/class/power_supply/battery/cycle_count
+
 service vendor.qrtr-ns /vendor/bin/qrtr-ns -f
     class core
     user vendor_qrtr
