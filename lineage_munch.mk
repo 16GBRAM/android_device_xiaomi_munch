@@ -11,13 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# GMS build flags
-# ship with GMS packages, replaces default AOSP packages with Google manufactured packages.
-WITH_GMS := true
-
-# you can build also pico GAPPS with flag
-WITH_GMS_VARIANT := pico
-TARGET_HAS_UDFPS := false
+#TARGET_HAS_UDFPS := false
 TARGET_DISABLE_EPPE := true
 
 # Inherit from munch device
