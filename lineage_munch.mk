@@ -17,6 +17,8 @@ WITH_GMS := false
 
 # you can build also pico GAPPS with flag
 WITH_GMS_VARIANT := pico
+TARGET_HAS_UDFPS := false
+TARGET_DISABLE_EPPE := true
 
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
