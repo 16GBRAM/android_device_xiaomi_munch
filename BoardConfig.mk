@@ -103,7 +103,7 @@ override KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-android-
 TARGET_USES_ION := true
 
 # Miui Camera
-TARGET_INCLUDES_MIUI_CAMERA := true
+TARGET_INCLUDES_MIUI_CAMERA := false
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := munch,munch_global,munch_in
