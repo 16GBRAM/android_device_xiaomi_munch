@@ -465,3 +465,4 @@ PRODUCT_BOOT_JARS += \
 $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
 
 TARGET_BOARD_PLATFORM := kona
+TARGET_PROVIDES_POWERHAL := true
