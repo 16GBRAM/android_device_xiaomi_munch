@@ -37,6 +37,8 @@ PRODUCT_NO_CAMERA := false
 # Whether to ship lawnchair launcher, false by default
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false 
 
+WITH_GMS := false
+
 PRODUCT_NAME := rising_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
