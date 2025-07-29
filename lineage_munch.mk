@@ -14,7 +14,30 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-PRODUCT_NAME := lineage_munch
+TARGET_DISABLE_EPPE := true
+
+# Lunch banner maintainer variable
+RISING_MAINTAINER="LordPutin"
+
+# Chipset/Maintainer properties (ro.rising.chipset/ro.rising.maintainer) 
+# Set RISING_MAINTAINER for version control 
+# (Optional if builder is setting properties via init_<device>.cpp)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 870" \
+    RisingMaintainer="LordPutin"
+
+RISING_MAINTAINER := LordPutin
+
+# Disable/enable blur support, false by default
+TARGET_ENABLE_BLUR := true
+
+# Whether to ship aperture camera, false by default
+PRODUCT_NO_CAMERA := false
+
+# Whether to ship lawnchair launcher, false by default
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false 
+
+PRODUCT_NAME := rising_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Poco
