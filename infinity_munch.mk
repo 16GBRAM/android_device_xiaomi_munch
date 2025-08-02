@@ -14,6 +14,9 @@ $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+INFINITY_BUILD_TYPE := UNOFFICIAL
+TARGET_DISABLE_EPPE := true
+
 PRODUCT_NAME := infinity_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
