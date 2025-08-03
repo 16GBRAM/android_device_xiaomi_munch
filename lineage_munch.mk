@@ -14,7 +14,34 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-PRODUCT_NAME := lineage_munch
+TARGET_ENABLE_BLUR := true
+TARGET_DISABLE_EPPE := true
+TARGET_INCLUDES_LOS_PREBUILTS := true
+
+# Define rear camera specs (multiple sensors supported)
+AXION_CAMERA_REAR_INFO := 64,8,2  # Example: 50MP + 48MP
+
+# Define front camera specs
+AXION_CAMERA_FRONT_INFO := 20  # Example: 42MP
+
+# Maintainer name (use "_" for spaces, e.g., "rmp_22" → "rmp 22" in UI)
+AXION_MAINTAINER := LordPutin
+
+# Processor name (use "_" for spaces)
+AXION_PROCESSOR := Snapdragon®_870_5G
+
+AXION_CPU_SMALL_CORES := 0,1,2,3
+AXION_CPU_BIG_CORES := 4,5,6,7 
+AXION_CPU_BG := 0-2
+AXION_CPU_FG := 0-7
+AXION_CPU_LIMIT_BG := 0-1
+AXION_CPU_UNLIMIT_UI := 0-7
+AXION_CPU_LIMIT_UI := 0-4
+AXION_CPU_DISPLAY := 4-7
+AXION_CPU_AUDIO := 0-3
+AXION_DEBUGGING_ENABLED := true
+
+PRODUCT_NAME := axion_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Poco
