@@ -14,7 +14,7 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
 
 # Call the Dolby setup
-TARGET_USES_DOLBY := true
+TARGET_USES_DOLBY := false
 ifeq ($(TARGET_USES_DOLBY),true)
 $(call inherit-product, hardware/dolby/dolby.mk)
 endif
