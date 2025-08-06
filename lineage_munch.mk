@@ -14,6 +14,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+BYPASS_CHARGE_SUPPORTED := true
 TARGET_ENABLE_BLUR := true
 TARGET_DISABLE_EPPE := true
 TARGET_INCLUDES_LOS_PREBUILTS := true
