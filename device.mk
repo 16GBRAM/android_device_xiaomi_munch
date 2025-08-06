@@ -468,3 +468,5 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
+
+WITH_DEXPREOPT := false
