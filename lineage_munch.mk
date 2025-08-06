@@ -15,7 +15,6 @@ $(call inherit-product, vendor/eos/config/common.mk)
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
 TARGET_DISABLE_EPPE := true
-export EOS_DEVICE=munch
 PRODUCT_NAME := eos_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
