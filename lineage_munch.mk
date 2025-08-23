@@ -37,7 +37,7 @@ PRODUCT_NO_CAMERA := false
 # Whether to ship lawnchair launcher, false by default
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false 
 
-WITH_GMS := false
+WITH_GMS := true
 
 PRODUCT_NAME := rising_munch
 PRODUCT_DEVICE := munch
