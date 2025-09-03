@@ -14,7 +14,11 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-PRODUCT_NAME := lineage_munch
+TARGET_DISABLE_EPPE := true
+MISTOS_MAINTAINER="LordPutin"
+WITH_GMS := false
+
+PRODUCT_NAME := mist_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Poco
