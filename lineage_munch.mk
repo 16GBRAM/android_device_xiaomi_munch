@@ -14,6 +14,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
+# Integrate Viper4fx
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 TARGET_DISABLE_EPPE := true
 WITH_GAPPS := true
 TARGET_USES_CORE_GAPPS := true
