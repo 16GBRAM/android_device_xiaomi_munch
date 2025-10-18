@@ -39,3 +39,6 @@ vendor.wfdservice64=enable
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Maintainer name
+ro.paranoid.maintainer=LordPutin
