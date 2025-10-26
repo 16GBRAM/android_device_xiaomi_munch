@@ -18,7 +18,6 @@ $(call inherit-product, device/xiaomi/munch/device.mk)
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 TARGET_DISABLE_EPPE := true
-WITH_GAPPS := true
 TARGET_OPTIMIZED_DEXOPT := true
 BYPASS_CHARGE_SUPPORTED := false
 WITH_BCR := true
