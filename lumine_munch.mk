@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/munch/device.mk)
 
 TARGET_DISABLE_EPPE := true
 
-PRODUCT_NAME := lineage_munch
+PRODUCT_NAME := lumine_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Poco
