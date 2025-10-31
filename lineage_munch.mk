@@ -16,7 +16,7 @@ $(call inherit-product, device/xiaomi/munch/device.mk)
 
 TARGET_DISABLE_EPPE := true
 MISTOS_MAINTAINER="LordPutin"
-WITH_GMS := true
+WITH_GMS := false
 TARGET_ENABLE_BLUR := true
 
 PRODUCT_NAME := mist_munch
