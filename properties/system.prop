@@ -41,4 +41,4 @@ vendor.wfdservice64=enable
 persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Maintainer name
-ro.paranoid.maintainer=GHEYLORD (KELEKAPHOOL)
+ro.paranoid.maintainer=GHEYLORD(KELEKAPHOOL)
