@@ -20,7 +20,7 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 TARGET_DISABLE_EPPE := true
 WITH_GMS := true
 TARGET_OPTIMIZED_DEXOPT := true
-BYPASS_CHARGE_SUPPORTED := false
+BYPASS_CHARGE_SUPPORTED := true
 WITH_BCR := true
 
 PRODUCT_NAME := lineage_munch
